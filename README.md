@@ -1,3 +1,4 @@
+**Gitter**: https://gitter.im/waslhdj
 
 **Project Board**: https://github.com/walshdj/experiment_ground/projects/1
 
