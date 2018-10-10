@@ -1,0 +1,27 @@
+{
+  "name": "experiment_ground",
+  "version": "1.0.0",
+  "description": "**Gitter**: https://gitter.im/waslhdj",
+  "main": "main.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "start json-server --watch db.json  &&  start http-server -p 1992",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/walshdj/experiment_ground.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/walshdj/experiment_ground/issues"
+  },
+  "homepage": "https://github.com/walshdj/experiment_ground#readme",
+  "devDependencies": {
+    "json-server": "^0.14.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
