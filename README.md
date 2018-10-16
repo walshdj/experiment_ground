@@ -5,7 +5,7 @@
 **Wiki**: https://github.com/walshdj/experiment_ground/wiki
 
 # Prerequisites
-- Latest LTS Version: 8.12.0 (includes npm 6.4.1)
+- NodeJS - Latest LTS Version: 8.12.0 (includes npm 6.4.1)
 - download from https://nodejs.org/en/download/
 
 ## Test Installation
@@ -21,7 +21,7 @@ on command line `git clone https://github.com/walshdj/experiment_ground.git`
 - `npm install --only=dev` installs dev dependencies used for project.
 
 # Build
-- `npm run build` creates release artifact `main.js` from `src/index.js`
+- `npm run build` creates release artifact `main.js` (linked to in `index.html` file) from `src/index.js`
 
 # Run
 - `npm run start` does the following
