@@ -24,4 +24,7 @@ on command line `git clone https://github.com/walshdj/experiment_ground.git`
 - `npm run build` creates release artifact `main.js` from `src/index.js`
 
 # Run
-- `npm run start` - kicks off http server - app available on http://localhost:1992/
+- `npm run start` does the following
+
+1. kicks off http server for serving the front end app available on http://localhost:1992/
+2. sets up a 'fake' backend api using json-server available on http://localhost:3000 e.g http://localhost:300/deals
